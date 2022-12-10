@@ -5,15 +5,14 @@ body {
 .header {
     text-align: center;
     font-family: Impact;
-    margin: -10px;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 25px;
     background-color: lightblue;
 }
 
 hr {
-    color: blue;
+    color: darkblue;
     border-color: blue;
     border-radius: 10px;
 }
@@ -41,8 +40,10 @@ h2 {
 }
 
 .menu img {
+    position: relative;
     width: 400px;
     height: 400px;
+    max-width: 100%;
 }
 
 .menu img:hover {
@@ -50,17 +51,20 @@ h2 {
     height: 425px;
 }
 
-.item, .ourteam article {
+.item, .team {
     font-family: Impact, serif;
     font-size: 25px;
     max-width: 50%;
     display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ourteam img {
     margin-top: 12px;
     width: 300px;
     height: 300px;
+    max-width: 100%;
     margin-bottom: -4px;
 }
 
@@ -95,8 +99,8 @@ h2 {
     font-size: 2.75vw;
     float: right;
     text-align: center;
-    width: 65%;
-    max-width: fit-content;
+    width: fit-content;
+    max-width: 65%;
 }
 
 .foot {

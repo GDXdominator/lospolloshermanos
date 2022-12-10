@@ -19,6 +19,8 @@ hr {
 
 .logo {
     size: 50px;
+    max-width: 75%;
+    max-height: 75%;
 }
 
 .menu, .ourteam {

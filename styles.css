@@ -22,13 +22,13 @@ hr {
     size: 50px;
 }
 
-.menu {
+.menu, .ourteam {
     text-align: center;
     font-family: Impact, serif;
     font-size: 50px;
 }
 
-.menu h2 {
+h2 {
     font-size: 25;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -50,11 +50,22 @@ hr {
     height: 425px;
 }
 
-.item {
+.item, .ourteam article {
     font-family: Impact, serif;
     font-size: 25px;
-    text-align: center;
+    max-width: 50%;
     display: inline-block;
+}
+
+.ourteam img {
+    margin-top: 12px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: -4px;
+}
+
+.ourteam p {
+    max-width: 350px;
 }
 
 .gus {
@@ -63,6 +74,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
+    margin-bottom: 12px;
     padding-top: 10px;
 }
 
@@ -80,10 +92,11 @@ hr {
 
 .gusspeaks {
     font-family: Impact, serif;
-    font-size: 50px;
+    font-size: 2.75vw;
     float: right;
     text-align: center;
     width: 65%;
+    max-width: fit-content;
 }
 
 .foot {
@@ -92,4 +105,20 @@ hr {
     margin-right: auto;
     margin-bottom: auto;
     text-align: center;
+}
+
+a {
+    color: darkblue;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: deepskyblue;
+}
+
+a:visited {
+    color:cornflowerblue;
 }

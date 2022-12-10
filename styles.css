@@ -43,12 +43,18 @@ h2 {
     position: relative;
     width: 400px;
     height: 400px;
-    max-width: 100%;
+    max-width: 105%;
+    max-height: 45vw;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .menu img:hover {
-    width: 425px;
-    height: 425px;
+    transform: scale(1.1);
+}
+
+.chickensandwich {
+    margin-right: 3px;
 }
 
 .item, .team {
@@ -64,7 +70,8 @@ h2 {
     margin-top: 12px;
     width: 300px;
     height: 300px;
-    max-width: 100%;
+    max-width: 105%;
+    max-height: 45vw;
     margin-bottom: -4px;
 }
 
